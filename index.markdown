@@ -13,56 +13,56 @@ Audio-visual speech enhancement (AV-SE) aims to enhance degraded speech along wi
 
 * * *
 
-| Method           | Station Noise at 2.5dB | Traffic Noise at -2.5dB |
+| Method           | LivingRoom Noise at 2.5dB | Cafe Noise at -2.5dB |
 |:-----------------|:-----------------------|:------------------------|
-| Noisy            |<audio  src="audio/62me-019_xaud-noisy_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-noisy_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-noisy_2.5_station.png)|![spec](spec/01fi-016_xaud-noisy_-2.5_traffic.png)|
-| Groundtruth      |<audio  src="audio/62me-019_xaud-gt_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-gt_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-gt_2.5_station.png)|![spec](spec/01fi-016_xaud-gt_-2.5_traffic.png)|
-| VSE              |<audio  src="audio/62me-019_xaud-vse_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-vse_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-vse_2.5_station.png)|![spec](spec/01fi-016_xaud-vse_-2.5_traffic.png)|
-| PVSE             |<audio  src="audio/62me-019_xaud-pvse_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-pvse_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-pvse_2.5_station.png)|![spec](spec/01fi-016_xaud-pvse_-2.5_traffic.png)|
-| IOAVSE           |<audio  src="audio/62me-019_xaud-ioavse_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-ioavse_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-ioavse_2.5_station.png)|![spec](spec/01fi-016_xaud-ioavse_-2.5_traffic.png)|
-| KD-based         |<audio  src="audio/62me-019_xaud-kd_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-kd_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-kd_2.5_station.png)|![spec](spec/01fi-016_xaud-kd_-2.5_traffic.png)|
-| Memory-based     |<audio  src="audio/62me-019_xaud-memory_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-memory_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-memory_2.5_station.png)|![spec](spec/01fi-016_xaud-memory_-2.5_traffic.png)|
-| Audio-Lip        |<audio  src="audio/62me-019_xaud-lip_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-lip_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-lip_2.5_station.png)|![spec](spec/01fi-016_xaud-lip_-2.5_traffic.png)|
-| Audio-Lip-Tongue |<audio  src="audio/62me-019_xaud-lip_tongue_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-lip_tongue_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-lip_tongue_2.5_station.png)|![spec](spec/01fi-016_xaud-lip_tongue_-2.5_traffic.png)|
-| Audio-Tongue     |<audio  src="audio/62me-019_xaud-tongue_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-tongue_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-tongue_2.5_station.png)|![spec](spec/01fi-016_xaud-tongue_-2.5_traffic.png)|
-| Audio-Only       |<audio  src="audio/62me-019_xaud-ao_2.5_station.wav" controls="controls"></audio >|<audio  src="audio/01fi-016_xaud-ao_-2.5_traffic.wav" controls="controls"></audio >|
-|                  |![spec](spec/62me-019_xaud-ao_2.5_station.png)|![spec](spec/01fi-016_xaud-ao_-2.5_traffic.png)|
+| Noisy            |<audio  src="audio/01fi-015_xaud-noisy_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-noisy_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-noisy_2.5_living.png)|![spec](spec/05ms-015_xaud-noisy_-2.5_cafe.png)|
+| Groundtruth      |<audio  src="audio/01fi-015_xaud-gt_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-gt_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-gt_2.5_living.png)|![spec](spec/05ms-015_xaud-gt_-2.5_cafe.png)|
+| VSE              |<audio  src="audio/01fi-015_xaud-vse_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-vse_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-vse_2.5_living.png)|![spec](spec/05ms-015_xaud-vse_-2.5_cafe.png)|
+| PVSE             |<audio  src="audio/01fi-015_xaud-pvse_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-pvse_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-pvse_2.5_living.png)|![spec](spec/05ms-015_xaud-pvse_-2.5_cafe.png)|
+| IOAVSE           |<audio  src="audio/01fi-015_xaud-ioavse_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-ioavse_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-ioavse_2.5_living.png)|![spec](spec/05ms-015_xaud-ioavse_-2.5_cafe.png)|
+| KD-based         |<audio  src="audio/01fi-015_xaud-kd_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-kd_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-kd_2.5_living.png)|![spec](spec/05ms-015_xaud-kd_-2.5_cafe.png)|
+| Memory-based     |<audio  src="audio/01fi-015_xaud-memory_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-memory_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-memory_2.5_living.png)|![spec](spec/05ms-015_xaud-memory_-2.5_cafe.png)|
+| Audio-Lip        |<audio  src="audio/01fi-015_xaud-lip_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-lip_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-lip_2.5_living.png)|![spec](spec/05ms-015_xaud-lip_-2.5_cafe.png)|
+| Audio-Lip-Tongue |<audio  src="audio/01fi-015_xaud-lip_tongue_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-lip_tongue_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-lip_tongue_2.5_living.png)|![spec](spec/05ms-015_xaud-lip_tongue_-2.5_cafe.png)|
+| Audio-Tongue     |<audio  src="audio/01fi-015_xaud-tongue_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-tongue_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-tongue_2.5_living.png)|![spec](spec/05ms-015_xaud-tongue_-2.5_cafe.png)|
+| Audio-Only       |<audio  src="audio/01fi-015_xaud-ao_2.5_living.wav" controls="controls"></audio >|<audio  src="audio/05ms-015_xaud-ao_-2.5_cafe.wav" controls="controls"></audio >|
+|                  |![spec](spec/01fi-015_xaud-ao_2.5_living.png)|![spec](spec/05ms-015_xaud-ao_-2.5_cafe.png)|
 
 * * *
 
-| Method           | Psquare Noise at -7.5dB | Cafeteria Noise at -7.5dB |
+| Method           | LivingRoom Noise at -7.5dB | Cafeteria Noise at -7.5dB |
 |:-----------------|:-----------------------|:------------------------|
-| Noisy            |<audio  src="audio/80me-059_aud-noisy_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-noisy_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-noisy_-7.5_psquare.png)|![spec](spec/50ms-184_aud-noisy_-7.5_cafeteria.png)|
-| Groundtruth      |<audio  src="audio/80me-059_aud-gt_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-gt_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-gt_-7.5_psquare.png)|![spec](spec/50ms-184_aud-gt_-7.5_cafeteria.png)|
-| VSE              |<audio  src="audio/80me-059_aud-vse_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-vse_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-vse_-7.5_psquare.png)|![spec](spec/50ms-184_aud-vse_-7.5_cafeteria.png)|
-| PVSE             |<audio  src="audio/80me-059_aud-pvse_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-pvse_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-pvse_-7.5_psquare.png)|![spec](spec/50ms-184_aud-pvse_-7.5_cafeteria.png)|
-| IOAVSE           |<audio  src="audio/80me-059_aud-ioavse_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-ioavse_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-ioavse_-7.5_psquare.png)|![spec](spec/50ms-184_aud-ioavse_-7.5_cafeteria.png)|
-| KD-based         |<audio  src="audio/80me-059_aud-kd_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-kd_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-kd_-7.5_psquare.png)|![spec](spec/50ms-184_aud-kd_-7.5_cafeteria.png)|
-| Memory-based     |<audio  src="audio/80me-059_aud-memory_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-memory_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-memory_-7.5_psquare.png)|![spec](spec/50ms-184_aud-memory_-7.5_cafeteria.png)|
-| Audio-Lip        |<audio  src="audio/80me-059_aud-lip_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-lip_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-lip_-7.5_psquare.png)|![spec](spec/50ms-184_aud-lip_-7.5_cafeteria.png)|
-| Audio-Lip-Tongue |<audio  src="audio/80me-059_aud-lip_tongue_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-lip_tongue_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-lip_tongue_-7.5_psquare.png)|![spec](spec/50ms-184_aud-lip_tongue_-7.5_cafeteria.png)|
-| Audio-Tongue     |<audio  src="audio/80me-059_aud-tongue_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-tongue_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-tongue_-7.5_psquare.png)|![spec](spec/50ms-184_aud-tongue_-7.5_cafeteria.png)|
-| Audio-Only       |<audio  src="audio/80me-059_aud-ao_-7.5_psquare.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-ao_-7.5_cafeteria.wav" controls="controls"></audio >|
-|                  |![spec](spec/80me-059_aud-ao_-7.5_psquare.png)|![spec](spec/50ms-184_aud-ao_-7.5_cafeteria.png)|
+| Noisy            |<audio  src="audio/10me-016_xaud-noisy_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-noisy_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-noisy_-7.5_living.png)|![spec](spec/50ms-184_aud-noisy_-7.5_cafeteria.png)|
+| Groundtruth      |<audio  src="audio/10me-016_xaud-gt_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-gt_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-gt_-7.5_living.png)|![spec](spec/50ms-184_aud-gt_-7.5_cafeteria.png)|
+| VSE              |<audio  src="audio/10me-016_xaud-vse_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-vse_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-vse_-7.5_living.png)|![spec](spec/50ms-184_aud-vse_-7.5_cafeteria.png)|
+| PVSE             |<audio  src="audio/10me-016_xaud-pvse_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-pvse_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-pvse_-7.5_living.png)|![spec](spec/50ms-184_aud-pvse_-7.5_cafeteria.png)|
+| IOAVSE           |<audio  src="audio/10me-016_xaud-ioavse_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-ioavse_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-ioavse_-7.5_living.png)|![spec](spec/50ms-184_aud-ioavse_-7.5_cafeteria.png)|
+| KD-based         |<audio  src="audio/10me-016_xaud-kd_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-kd_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-kd_-7.5_living.png)|![spec](spec/50ms-184_aud-kd_-7.5_cafeteria.png)|
+| Memory-based     |<audio  src="audio/10me-016_xaud-memory_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-memory_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-memory_-7.5_living.png)|![spec](spec/50ms-184_aud-memory_-7.5_cafeteria.png)|
+| Audio-Lip        |<audio  src="audio/10me-016_xaud-lip_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-lip_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-lip_-7.5_living.png)|![spec](spec/50ms-184_aud-lip_-7.5_cafeteria.png)|
+| Audio-Lip-Tongue |<audio  src="audio/10me-016_xaud-lip_tongue_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-lip_tongue_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-lip_tongue_-7.5_living.png)|![spec](spec/50ms-184_aud-lip_tongue_-7.5_cafeteria.png)|
+| Audio-Tongue     |<audio  src="audio/10me-016_xaud-tongue_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-tongue_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-tongue_-7.5_living.png)|![spec](spec/50ms-184_aud-tongue_-7.5_cafeteria.png)|
+| Audio-Only       |<audio  src="audio/10me-016_xaud-ao_-7.5_living.wav" controls="controls"></audio >|<audio  src="audio/50ms-184_aud-ao_-7.5_cafeteria.wav" controls="controls"></audio >|
+|                  |![spec](spec/10me-016_xaud-ao_-7.5_living.png)|![spec](spec/50ms-184_aud-ao_-7.5_cafeteria.png)|
 
 
