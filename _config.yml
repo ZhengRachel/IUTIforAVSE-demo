@@ -22,7 +22,7 @@ title: Demo for Incorporating UTI for AV-SE
 email: zhengruichen@mail.ustc.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Demo for "Incorporating ultrasound tongue images for audio-visual speech enhancement".
-baseurl: /IUTIforAVSE-demo/ # the subpath of your site, e.g. /blog
+baseurl: /IUTIforAVSE-demo # the subpath of your site, e.g. /blog
 url: https://zhengrachel.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhengrachel99
 github_username:  zhengrachel
